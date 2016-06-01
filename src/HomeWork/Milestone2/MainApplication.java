@@ -9,6 +9,14 @@ public class MainApplication {
     public static void main(String[] args) throws IOException {
         FileRead file = new FileRead();
         file.readFromFile();
+        FileWrite fileName = new FileWrite();
+        fileName.writeToFile();
     }
+
+
 }
+
+
+
+
 

@@ -10,7 +10,7 @@ import java.io.IOException;
 public class FileRead {
 
     public void readFromFile() throws IOException {
-        BufferedReader readFile = new BufferedReader(new FileReader("C:\\Users\\mcachia\\Desktop\\cs-cci.xls"));
+        BufferedReader readFile = new BufferedReader(new FileReader("C:\\Users\\mcachia\\Desktop\\markstock.csv"));
         String line;
 
         while ((line = readFile.readLine()) != null) {
